@@ -1,0 +1,17 @@
+buildscript {
+    ext.kotlin_version = '2.1.0'
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+ext {
+    compileSdkVersion = 35
+    targetSdkVersion = 35
+    minSdkVersion = 21
+}
+
